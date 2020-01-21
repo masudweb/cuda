@@ -1,0 +1,440 @@
+/*=== Global ====*/
+
+@font-face {
+  font-family: FrenchDisco;
+  src: url(../fonts/FrenchDisco.ttf);
+}
+
+body{
+	font-family: FrenchDisco;
+}
+h2{
+	font-size: 35px;
+	font-weight: 600;
+}
+h4{
+
+}
+p{
+	font-size: 20px;
+}
+.border-span{
+	display: block;
+	background: #4c434359;
+	height: 3px;
+	width: 100px;
+	margin: 20px auto;
+}
+
+/* Heading Part Start*/
+header{
+	background: #87509C;
+	
+}
+header{}
+header ul{}
+header ul li{}
+header ul li a{
+	font-size: 20px;
+    color: #fff !important;
+    padding: 5px 28px !important;
+    border-radius: 4px;
+    font-weight: 600 !important;
+}
+header ul li a:hover{
+	display: inline-block;
+	background: #643A79;
+}
+header .row {
+min-height: 100vh;
+color: #fff;
+align-items: center;
+
+}
+header .row h2{
+	    line-height: 1.8;
+	    font-size: 35px;
+	    font-weight: 600;
+}
+header .row a{
+	
+}
+header .row a:hover{
+	
+}
+.btn{
+	padding: 19px 90px;
+	border: 1px solid re;
+}
+.btn-orange{
+	margin-top: 30px;
+	color: #fff;
+	border-right: 4px solid transparent;
+	background-color: #EB7D4B;
+	border-bottom: 4px solid #c14d19;
+	transition: all .5s ease;
+}
+.btn-orange:hover{
+	color: #87509C;
+	border-bottom: 4px solid transparent;
+	border-right: 4px solid #C86A40;
+}
+
+/* Heading Part End */
+
+
+/* Service Part Start */
+.service{
+	padding: 100px 0px 0px 0px;
+	background-color: #17C2A4;
+	color: #fff;
+}
+.service-content{
+
+}
+.service-content img{
+
+margin-bottom: 10px;
+}
+.service-content h4{
+	margin: 20px 0px;
+	font-weight: 600;
+	font-size: 28px;
+	text-transform: capitalize;
+}
+.service-content p{
+
+}
+
+/* Service Part End */
+
+
+
+/* Team Part Start */
+.team{
+	padding: 100px 0px 50px 0px;
+	background-color: #E7F1F8;
+	color: #4D586F;
+}
+.team-content{
+
+}
+.team-content img{
+
+margin-bottom: 10px;
+}
+.team-content h4{
+	margin: 20px 0px;
+	margin-bottom: 5px;
+	font-weight: 600;
+	font-size: 28px;
+	text-transform: capitalize;
+}
+.team-content h5{
+	color: #8CD1EE;
+	margin-bottom: 15px;
+	font-size: 16px;
+}
+.team-content p{
+
+}
+.team-content ul{
+
+}
+.team-content ul li{
+
+padding: 5px;
+}
+.team-content ul li a{
+	color: #fff;
+background: #BDD1DF;
+height: 35px;
+width: 35px;
+display: block;
+line-height: 35px;
+border-radius: 53%;
+transition: all .5s ease;
+}
+.team-content ul li a:hover{
+	color: #BDD1DF;
+background: #fff;
+}
+/* Team Part End */
+
+
+/* Skills Part Start */
+.skills{
+	padding: 100px 0px 50px 0px;
+	color: #4D586F;
+	text-align: center;
+}
+.skills-content{
+	position: relative;
+}
+.skills-content img{
+	
+}
+.skills-content h4{
+	position: absolute;
+	font-weight: 600;
+	font-size: 28px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.skills h5{
+	color: #3C4761;
+	font-size: 28px;
+	font-weight: 700;
+}
+
+/* Skills Part End */
+
+
+/* Protfolio Part Start */
+.protfolio{
+	padding: 100px 0px 50px 0px;
+	background-color: #FFDD99;
+	color: #393939;
+}
+.protfolio-content{
+
+}
+.protfolio-content img{
+
+margin-bottom: 10px;
+}
+.protfolio-content h5{
+	margin: 20px 0px;
+	font-size: 24px;
+	text-transform: capitalize;
+}
+.protfolio ul li{
+	padding: 0 5px;
+	margin-bottom: 20px;
+}
+.protfolio ul li a{
+	color: #393939;
+	background: #EBC985;
+	font-size: 20px;
+    padding: 7px 20px !important;
+    border-radius: 4px;
+    font-weight: 600 !important;
+}
+.protfolio ul li a:hover{
+	
+	background: #FFFFFF;
+	text-decoration: none;
+}
+
+.btn-sky{
+
+	color: #fff;
+	border-right: 4px solid transparent;
+	background-color: #17C2A4;
+	border-bottom: 4px solid #14A58C;
+	transition: all .5s ease;
+}
+
+.btn-sky:hover{
+	color: #FFDD99;
+	border-bottom: 4px solid transparent;
+	border-right: 4px solid #14A58C;
+}
+/* Protfolio Part End */
+
+/* Feedback Part Start */
+.feedback{
+	padding-top: 100px;
+	background: #D74680;
+	color: #fff;
+}
+.feedback img{
+	margin-bottom: 20px;
+}
+.feedback h3{
+	font-weight: 600;
+	font-size: 22px;
+}
+.feedback h5{
+	color: #FFDD99;
+	margin-top: 0px;
+	padding-top: 0px;
+	font-size: 19px;
+}
+
+/* Feedback Part End */
+
+.contact{
+	color: #fff;
+	padding: 100px 0px;
+	background: #3C5499;
+}
+
+.form-control {
+   
+    display: block;
+    width: 100%;
+    padding: 15px 10px;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #273A71;
+    background-clip: padding-box;
+    border-radius: 4px;
+    transition: all .5s ease;
+    border: 0px solid red !important;
+}
+
+.form-control:focus {
+    color: #495057;
+    background: #273A71 !important;
+ 	 border-color: red;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0);
+}
+.btn-skyblue{
+
+	margin:30px auto;
+	display: inline-block;
+	color: #fff;
+	border-right: 4px solid transparent;
+	background-color: #30BAE7;
+	border-bottom: 4px solid #299EC5;
+	transition: all .5s ease;
+}
+
+.btn-skyblue:hover{
+	color: #FFDD99;
+	border-bottom: 4px solid transparent;
+	border-right: 4px solid #299EC5;
+}
+::placeholder{
+	color: #fff !important;
+}
+::-moz-placeholder{
+	color: #fff !important;
+}
+::-webkit-placeholder{
+	color: #fff !important;
+}
+::-ms-placeholder{
+	color: #fff !important;
+}
+footer{
+	background: #344B8E;
+}
+footer ul{
+	
+}
+footer ul li{
+	padding: 10px 5px;
+}
+footer ul li a{
+	font-weight: 500;
+	font-size: 20px;
+	color: #fff;
+	text-transform: uppercase;
+	
+}
+footer ul li a:hover{
+	color: #30BAE7;
+	text-decoration: none;
+}
+/* Media Query*/
+
+@media (max-width: 1199px){
+
+}
+
+@media (max-width: 991px){
+	header .row h2{
+	    line-height: 1.8;
+	    font-size: 25px;
+	    font-weight: 600;
+}
+
+
+.service-content h4{
+	margin: 20px 0px;
+	font-weight: 600;
+	font-size: 22px;
+	text-transform: capitalize;
+}
+
+}
+
+@media (max-width: 767px){
+	h2{
+	font-size: 30px;
+	font-weight: 400;
+}
+
+	.btn{
+	padding: 19px 60px;
+	border: 1px solid re;
+}
+
+footer ul li a{
+	font-weight: 500;
+	font-size: 18px;
+	color: #fff;
+	text-transform: uppercase;
+	
+}
+
+
+}
+
+@media (max-width: 575px){
+	h2{
+	font-size: 22px;
+	font-weight: 400;
+}
+
+		header .row {
+min-height: 80vh;
+color: #fff;
+align-items: center;
+
+}
+		header .row h2{
+	    line-height: 1.5;
+	    font-size: 18px;
+	    font-weight: 600;
+}
+	.btn{
+	padding: 15px 40px;
+	border: 1px solid re;
+}
+.team-content h4{
+
+	font-size: 22px;
+
+}
+.team-content h5{
+
+	font-size: 15px;
+}
+
+.skills-content h4{	
+	font-size: 25px;
+}
+.skills h5{
+	font-size: 24px;
+}
+
+.feedback{
+	text-align: center;
+}
+footer ul li{
+	padding: 10px  5px;
+}
+footer ul li a{
+	font-weight: 500;
+	font-size: 14px;
+	color: #fff;
+	text-transform: uppercase;
+	
+}
+}
